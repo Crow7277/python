@@ -1,0 +1,14 @@
+"""
+crow7
+2021年07月05日
+"""
+
+
+class Employee():
+    def __init__(self, first_name, last_name, annual_salary):
+        self.first_name = first_name.title()
+        self.last_name = last_name.title()
+        self.annual_salary = annual_salary
+
+    def give_raise(self, salary_raise=5000):
+        self.annual_salary += salary_raise

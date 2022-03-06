@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "utils"
+    ],
+    "python.pythonPath": "D:\\VisualStudio\\SDK\\Anaconda3\\python.exe"
+    
+}
